@@ -1,0 +1,71 @@
+.listado{
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: bisque;
+    width: 500px;
+    height: 150px;
+}
+.listado p:first-child{
+    color: aliceblue;
+}
+
+/* PseudoElemento*/
+.container{
+    margin: 5px 5px;
+    padding: 5px;
+    width: 500px;
+    height: 150px;
+    background-color: aqua;
+}
+
+span.frase{
+    font-style: italic;
+}
+
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+.list ul li::marker{
+    color: red;
+}
+/* BUTTON*/
+
+.boton{ /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #43c6ac, #f8ffae);
+    width: 500px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.click-1{
+   width: 150px;
+   height: 40px;
+   background: #00C9FF;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  
+   background: linear-gradient(to right, #92FE9D, #00C9FF); 
+   border: 2px solid black;
+   color: white;
+   border-radius: 4px;
+   background-blend-mode: multiply;   
+   cursor: pointer;
+}
+.click-1:hover{
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    box-shadow: 0em .25em 2em 0em rgba(253, 151, 255, 1);
+    border: 0px;
+    font-size: 1.2rem;
+    width: 200px;
+}
+
+button.click-1::after{
+    content: 'Click Me';
+}

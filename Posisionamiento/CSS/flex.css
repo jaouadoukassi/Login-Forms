@@ -1,0 +1,36 @@
+/* https://codepen.io/enxaneta/full/adLPwv/ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{    
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color: aquamarine;
+    height: 300px;
+    margin: 5px;
+}
+.contenido-1{
+    background-color: blueviolet;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}
+.contenido-2{
+    background-color: blueviolet;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}
+.contenido-3{
+    background-color: blueviolet;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}

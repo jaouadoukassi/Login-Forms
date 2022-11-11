@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ h1{
+    text-align: center;
+}
+/*
+.img-1{
+    width: 100vw;
+    opacity: 0.5;
+}
+.img-1:hover{
+    opacity: 1;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img{
+    width: 150px;
+}
+.img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+} */
+/* video*/
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+.header{
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+}
